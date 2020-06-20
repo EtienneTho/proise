@@ -73,7 +73,7 @@ for iDigit in range(np.asarray(discriminativeMaps).shape[0]):
 	plt.tight_layout()
 for x in ax.ravel():
     x.axis("off")
-    plt.savefig('mnist_discriminative.png')
+plt.savefig('mnist_discriminative.png')
 plt.show()
 
 #### REVERSE CORRELATION
@@ -104,7 +104,7 @@ for iDigit in range(np.asarray(canonicalMaps).shape[0]):
 	plt.tight_layout()
 for x in ax.ravel():
     x.axis("off")
-    plt.savefig('mnist_revcorr.png')
+plt.savefig('mnist_canonical.png')
 plt.show()
 
 
