@@ -37,10 +37,10 @@ For MNIST, it provides the following output:
 
 (see `demo_mnist.py` for a detailed implementation)
 
-## Reference
+## References
   * `Ahumada Jr, A., & Lovell, J. (1971). Stimulus features in signal detection. The Journal of the Acoustical Society of America, 49(6B), 1751-1756.`
   * `Gosselin, F., & Schyns, P. G. (2001). Bubbles: a technique to reveal the use of information in recognition tasks. Vision research, 41(17), 2261-2271.`
 
-## Authors
+## Author
 
 * Developped by **Etienne Thoret** - For any questions/suggestions/bugs: please contact me at `firstnamename@gmail.com`
