@@ -15,7 +15,7 @@ Download or clone the repository
 The functions are all written in the `'./lib/proise.py'` file.
 
 ## Demo on MNIST
-An use case on the database of handwritten digits MNIST is provided in `./demo.py` and summarized in below.
+An use case on the database of handwritten digits MNIST is provided in `./demo.py` and summarized in below. The CNN trained on MNIST can be refitted with `./fit_cnn_mnist.py`
 
 ### Reverse correlation
 The typical use of the reverse correlation method (Ahumada et al., 1976) uses the two following functions:
@@ -24,11 +24,9 @@ The typical use of the reverse correlation method (Ahumada et al., 1976) uses th
 
 For MNIST, it provides the following output:
 
-![alt text](http://url/to/img.png)
+![Canonical maps for each digit](https://github.com/EtienneTho/proise/mnist_canonical.png)
 
-(see `demo.py` for a detailed implementation)
-
-
+(see `demo_mnist.py` for a detailed implementation)
 
 ### Bubbles
 The typical use of the Bubbles method (Gosselin & Shyns, 2001) uses the three following functions:
@@ -38,9 +36,9 @@ The typical use of the Bubbles method (Gosselin & Shyns, 2001) uses the three fo
 
 For MNIST, it provides the following output:
 
-![alt text](http://url/to/img.png)
+![Discriminative maps for each digit](https://github.com/EtienneTho/proise/mnist_canonical.png)
 
-(see `demo.py` for a detailed implementation)
+(see `demo_mnist.py` for a detailed implementation)
 
 
 ## Authors
