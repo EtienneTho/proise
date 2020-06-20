@@ -9,7 +9,7 @@ Python3 depedencies: `tensorflow`, `numpy`, `matplotlib`, `keras`, `tensorflow`,
 
 ### Get started
   1. Download or clone the repository.
-  2. All the functions are in the `'./lib/proise.py'` file and can be called by importing `lib` with `'from lib import FUNCTION'`
+  2. All the functions are in the `'./lib/proise.py'` file and can be called by importing `lib` with `'from lib import proise'`
 
 ## Demo on MNIST
 A use case on the database of handwritten digits MNIST is provided in `./demo.py` and summarized in below. The CNN trained on MNIST can be refitted with `'./fit_cnn_mnist.py'`
