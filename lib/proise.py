@@ -54,7 +54,7 @@ def generateBubbleMask(dimOfinput=(28,28), nbMasks=10, nbBubbles=10, bubbleSize=
 	return masks
 
 # generate probing samples from training set or with noise, or with pseudo-random noise from a testing set
-def generateProbingSamples(x_train_set = [], x_test_set = [], dimOfinput=(28,28), bubbleMasks = [], probingMethod = 'bubbles', samplesMethod = 'gaussianNoise', nDim_pca = 50, nbRevcorTrials = 1000):
+def generateProbingSamples(x_train_set = [], x_test_set = [], dimOfinput=(28,28), bubbleMasks = [], probingMethod = 'bubbles', samplesMethod = 'gaussianNoise', nDim_pca = 50, nbRevcorTrials = 1000, normalizeNoiseCoeff = 10):
 	if probingMethod == 'bubbles':
 		N_probing_samples = bubbleMasks.shape[0]
 		if samplesMethod == 'pseudoRandom':
@@ -71,7 +71,7 @@ def generateProbingSamples(x_train_set = [], x_test_set = [], dimOfinput=(28,28)
 		elif samplesMethod == 'gaussianNoise':
 			probingSamples = np.random.randn(nbRevcorTrials,np.product(dimOfinput)) 
 		elif samplesMethod == 'trainSet':
-			probingSamples =  np.reshape(x_train_set,(x_train_set.shape[0],np.product(dimOfinput)))[0:nbRevcorTrials,:]  + np.random.randn(nbRevcorTrials,np.product(dimOfinput))
+			probingSamples =  np.reshape(x_train_set,(x_train_set.shape[0],np.product(dimOfinput)))[0:nbRevcorTrials,:]  + np.random.randn(nbRevcorTrials,np.product(dimOfinput)) / normalizeNoiseCoeff
 	return probingSamples
 
 
