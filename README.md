@@ -1,11 +1,8 @@
 # PROISE
 
-This library implements the algorithms describes in the paper: "Probing machine-learning classifiers using noise, bubbles, and reverse correlation" by Thoret, E., Andrillon, T., Leger, D., Pressnitzer, D. (arxiv link)
+This library implements the algorithms describe in the paper: "Probing machine-learning classifiers using noise, bubbles, and reverse correlation" by Thoret, E., Andrillon, T., Leger, D., Pressnitzer, D. (arxiv link)
 
 It allows to probe the discriminative and canonical information of any trained machine learning classifier.
-
-### Prerequisites
-Python3 depedencies: `tensorflow`, `numpy`, `matplotlib`, `keras`, `tensorflow`, `sklearn`, `random`
 
 ### Get started
   1. Download or clone the repository.
@@ -36,6 +33,9 @@ For MNIST, it provides the following output:
 ![Discriminative maps for each digit](https://github.com/EtienneTho/proise/blob/master/mnist_discriminative.png)
 
 (see `demo_mnist.py` for a detailed implementation)
+
+### Python3 depedencies
+ `tensorflow`, `numpy`, `matplotlib`, `keras`, `tensorflow`, `sklearn`, `random`
 
 ## References
   * `Ahumada Jr, A., & Lovell, J. (1971). Stimulus features in signal detection. The Journal of the Acoustical Society of America, 49(6B), 1751-1756.`
