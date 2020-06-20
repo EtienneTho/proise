@@ -8,14 +8,11 @@ It allows to probe the discriminative and canonical information of any trained m
 Python3 depedencies: `tensorflow`, `numpy`, `matplotlib`, `keras`, `tensorflow`, `sklearn`, `random`
 
 ### Get started
-Download or clone the repository.
-
-## Running the tests
-
-The functions are all written in the `'./lib/proise.py'` file.
+  1. Download or clone the repository.
+  2. All the functions are in the `'./lib/proise.py'` file and can be called by importing `lib` with `'from lib import FUNCTION'`
 
 ## Demo on MNIST
-A use case on the database of handwritten digits MNIST is provided in `./demo.py` and summarized in below. The CNN trained on MNIST can be refitted with `./fit_cnn_mnist.py`
+A use case on the database of handwritten digits MNIST is provided in `./demo.py` and summarized in below. The CNN trained on MNIST can be refitted with `'./fit_cnn_mnist.py'`
 
 ### Reverse correlation
 The typical use of the reverse correlation method (Ahumada et al., 1976) uses the two following functions:
