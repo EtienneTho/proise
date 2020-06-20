@@ -24,7 +24,7 @@ The typical use of the reverse correlation method (Ahumada et al., 1976) uses th
 
 For MNIST, it provides the following output:
 
-![Canonical maps for each digit](https://github.com/EtienneTho/proise/mnist_canonical.png)
+![Canonical maps for each digit](https://github.com/EtienneTho/proise/blob/master/mnist_canonical.png)
 
 (see `demo_mnist.py` for a detailed implementation)
 
@@ -36,7 +36,7 @@ The typical use of the Bubbles method (Gosselin & Shyns, 2001) uses the three fo
 
 For MNIST, it provides the following output:
 
-![Discriminative maps for each digit](https://github.com/EtienneTho/proise/mnist_canonical.png)
+![Discriminative maps for each digit](https://github.com/EtienneTho/proise/blob/master/mnist_discriminative.png)
 
 (see `demo_mnist.py` for a detailed implementation)
 
