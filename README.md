@@ -1,6 +1,6 @@
 # PROISE
 
-This library implements the algorithms describe in the paper: "Probing machine-learning classifiers using noise, bubbles, and reverse correlation" by Thoret, E., Andrillon, T., Leger, D., Pressnitzer, D. (arxiv link)
+This library implements the algorithms describe in the paper: Thoret, E., Andrillon, T., Leger, D., Pressnitzer, D. (2021) Probing machine-learning classifiers using noise, bubbles, and reverse correlation, Journal of Neuroscience Methods, 362, 109297 10.1016/j.jneumeth.2021.109297 10.1101/2020.06.22.165688 (pre-print)
 
 It allows to probe the discriminative and canonical information of any trained machine learning classifier.
 
